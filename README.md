@@ -6,20 +6,16 @@ GNU/GPL v3 (voir LICENSE)
 
 ![Aperçu](res/illustration.png)
 
-#### Video Demo:
-
-TODO
-
 #### Play online:
 
-TODO
+[itch.io]https://seb46.itch.io/sanmaru
 
 #### Description:
 
 * Pop 3 bubbles of the same color in a row.
 * Done with a 50ko/s internet... First time I don't use google/stackoverflow to make a game. :)
-* I used a simplified version of the physical engine done for [my CS50 final project](https://github.com/sebabilla/balls_in_the_wind) and
-made a real little game with it. (or hope so)
+* I used a simplified version of the physical engine made for [my CS50 final project](https://github.com/sebabilla/balls_in_the_wind) and
+tried to do a real little game with it. (or hope so)
 
 [Source code in French](https://github.com/sebabilla/sanmaru)
 
@@ -44,6 +40,6 @@ gcc *.c -Wall -o 〇〇〇 -lm $(sdl2-config --cflags --libs) -lSDL2_gfx -lSDL2_
 Web Assembly compilation and companion files running in a web browser
 
 ```
-emcc *c -O2 -s USE_SDL=2 -s USE_SDL_TTF=2 --preload-file res/ -s USE_SDL_GFX=2 -s USE_SDL_MIXER=2 -s ALLOW_MEMORY_GROWTH -o balls_in_the_wind.html
+emcc *c -O2 -s USE_SDL=2 -s USE_SDL_TTF=2 --preload-file res/ -s USE_SDL_GFX=2 -s USE_SDL_MIXER=2 -s ALLOW_MEMORY_GROWTH -o 〇〇〇.html
 
 ```
