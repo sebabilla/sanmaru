@@ -4,6 +4,8 @@ by Sébastien Abilla
 
 GNU/GPL v3 (voir LICENSE)
 
+![Aperçu](res/illustration.png)
+
 #### Video Demo:
 
 TODO
@@ -19,9 +21,9 @@ TODO
 * I used a simplified version of the physical engine done for [my CS50 final project](https://github.com/sebabilla/balls_in_the_wind) and
 made a real little game with it. (or hope so)
 
-[Source code in French](https://github.com/sebabilla/balls_in_the_wind)
+[Source code in French](https://github.com/sebabilla/sanmaru)
 
-![Aperçu](res/illustration.png)
+
 
 #### Credits
 
